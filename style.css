@@ -1,0 +1,684 @@
+html
+{
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ul
+{
+    list-style: none;
+}
+
+br
+{
+    color: #039BE5;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.main
+{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+}
+
+.main-left
+{
+    width: 35%;
+    background-color: #039BE5;
+}
+
+.main-left-img
+{
+    height: 20%;
+}
+
+.main-left-img img
+{
+    height: 70%;
+    width: 70%;
+    padding-top: 13%;
+    padding-left: 15%;
+}
+
+.main-left-contact
+{
+    height: 30%;
+}
+
+.main-left-contact-title
+{
+    background-color: #212121;
+    color: #039BE5;
+    text-align: center;
+    height: 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-left-contact-title h2
+{
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-left-contact-text
+{
+    height: 30%;
+    font-size: small;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.main-left-about
+{
+    height: 40%;
+}
+
+.main-left-about-title
+{
+    background-color: #212121;
+    color: #039BE5;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-left-about-title h2
+{
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-left-about-text
+{
+    height: 30%;
+    font-size: small;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main-left-hobby
+{
+    height: 10%;
+}
+
+.main-left-hobby-title
+{
+    background-color: #212121;
+    color: #039BE5;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-left-hobby-title h2
+{
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-left-hobby-img
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+.main-right
+{
+    width: 72%;
+}
+
+.main-right-name
+{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-right-name h1
+{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    padding-left: 30px;
+    margin: 0;
+    height: 55px;
+}
+
+.hr-title
+{
+    border-bottom: 1px solid #039BE5;
+}
+
+.main-right-name-first
+{
+    color: #039BE5;
+    padding-right: 5px;
+}
+
+.main-right-name-last
+{
+    padding-left: 5px;
+}
+
+.main-right-name-desc
+{
+    padding-left: 30px;
+    margin: 0;
+}
+
+.main-right-formation
+{
+    height: 30%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-right-formation-head
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #039BE5;
+    margin-right: 30px;
+}
+
+.main-right-formation-head h2
+{
+    font-size: 1rem;
+    padding-left: 8px;
+}
+
+.main-right-formation-text
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-right-formation-text-title
+{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.main-right-formation-text-title p
+{
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-right-formation-text-title i
+{
+    padding-top: 13px;
+}
+
+.main-right-formation-text-desc
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.main-right-formation-text-desc h3
+{
+    font-size: medium;
+    margin: 0;
+    padding-top: 16px;
+}
+
+.main-right-formation-text-desc p
+{
+    font-size: small;
+    margin: 2px;
+    padding-right: 10px;
+}
+
+.main-right-experience
+{
+    height: 35%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-right-experience-head
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #039BE5;
+    margin-right: 30px;
+}
+
+.main-right-experience-head h2
+{
+    font-size: 1rem;
+    padding-left: 8px;
+}
+
+.main-right-experience-text
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-right-experience-text-title
+{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.main-right-experience-text-title p
+{
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-right-experience-text-title i
+{
+    padding-top: 13px;
+}
+
+.main-right-experience-text-desc
+{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.main-right-experience-text-desc h3
+{
+    font-size: medium;
+    margin: 0;
+    padding-top: 16px;
+}
+
+.main-right-experience-text-desc p
+{
+    font-size: small;
+    margin: 2px;
+    padding-right: 10px;
+}
+
+.main-right-recommendation
+{
+    height: auto;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-right-recommendation-head
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #039BE5;
+    margin-right: 30px;
+}
+
+.main-right-recommendation-head h2
+{
+    font-size: 1rem;
+    padding-left: 8px;
+}
+
+.main-right-recommendation-text
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.main-right-recommendation-text-desc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.main-right-recommendation-text p
+{
+    font-size: small;
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width: 630px)
+{
+    html
+    {
+        height: auto;
+    }
+
+    body
+    {
+        height: auto;
+    }
+
+    .main
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /*justify-content: center;*/
+        border: 1px solid grey;
+    }
+
+    .main-left
+    {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .main-left-img
+    {
+        display: flex;
+        flex-direction: column;
+        width: 13%;
+        height: auto;
+    }
+
+    .main-left-img img
+    {
+        width: 50px;
+        height: 50px;
+        padding-left: 2px;
+    }
+
+    .main-left-contact
+    {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .main-left-contact-title
+    {
+        height: auto;
+    }
+
+    .main-left-contact-title h2
+    {
+        font-size: small;
+    }
+
+    .main-left-contact-text
+    {
+        font-size: xx-small;
+        height: auto;
+    }
+
+    .main-left-about
+    {
+        display: flex;
+        flex-direction: column;
+        width: 37%;
+        height: auto;
+        padding-right: 1%;
+    }
+
+    .main-left-about-title
+    {
+        height: auto;
+    }
+
+    .main-left-about-title h2
+    {
+        font-size: small;
+    }
+
+    .main-left-about-text
+    {
+        font-size: xx-small;
+        height: auto;
+    }
+
+    .main-left-hobby
+    {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: auto;
+    }
+
+    .main-left-hobby-title
+    {
+        height: auto;
+    }
+
+    .main-left-hobby-title h2
+    {
+        font-size: small;
+    }
+
+    .main-left-hobby-text
+    {
+        font-size: xx-small;
+        height: auto;
+    }
+
+    .main-right
+    {
+        padding-top: 10px;
+        width: 100%;
+    }
+
+    .main-right-name
+    {
+        height: auto;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+
+    .main-right-name h1
+    {
+        height: auto;
+    }
+
+    .main-right-formation
+    {
+        height: auto;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+
+    .main-right-experience
+    {
+        height: auto;
+        padding-bottom: 20px;
+        padding-right: 30px;
+    }
+
+    .main-right-recommendation
+    {
+        padding-right: 30px;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+@media screen and (max-width: 450px)
+{
+    .main-left-img
+    {
+        width: 17%;
+    }
+
+    .main-left-img img
+    {
+        width: 40px;
+        height: 40px;
+        padding-left: 2px;
+    }
+
+    .main-left-contact-title h2
+    {
+        font-size: x-small;
+    }
+
+    .main-left-contact-text
+    {
+        font-size: 0.2rem;
+        height: auto;
+    }
+
+    .main-left-about
+    {
+        width: 40%;
+    }
+
+    .main-left-about-title h2
+    {
+        font-size: x-small;
+    }
+
+    .main-left-about-text
+    {
+        font-size: 0.2rem;
+        height: auto;
+    }
+
+    .main-left-hobby
+    {
+        width: 18%;
+    }
+
+    .main-left-hobby-title h2
+    {
+        font-size: x-small;
+    }
+
+    .main-left-hobby-text
+    {
+        font-size: 0.2rem;
+        height: auto;
+    }
+
+    .main-left-hobby-img
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+    .main-right
+    {
+        padding-top: 40px;
+    }
+
+    .main-right-name-first
+    {
+        font-size: medium;
+    }
+
+    .main-right-name-last
+    {
+        font-size: medium;
+    }
+
+    .main-right-name-desc
+    {
+        font-size: small;
+    }
+
+    .main-right-formation-head
+    {
+        margin: 0;
+    }
+
+    .main-right-formation-text
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-right-formation-text-title
+    {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .main-right-formation-text-desc
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-right-experience-head
+    {
+        margin: 0;
+    }
+
+    .main-right-experience-text
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-right-experience-text-title
+    {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+    }
+
+    .main-right-experience-text-desc
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
