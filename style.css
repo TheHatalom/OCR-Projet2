@@ -16,6 +16,11 @@ ul
     list-style: none;
 }
 
+ul li:nth-child(2n+2)
+{
+    margin-bottom: 12%;
+}
+
 br
 {
     color: #039BE5;
@@ -146,6 +151,13 @@ br
     padding-top: 25px;
 }
 
+.main-left-hobby-img i 
+{
+    padding: 30%;
+    border: 1px solid #212121;
+    border-radius: 50%;
+}
+
 .main-right
 {
     width: 72%;
@@ -163,10 +175,10 @@ br
 {
     display: flex;
     flex-direction: row;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-left: 30px;
     margin: 0;
-    height: 55px;
+    height: auto;
 }
 
 .hr-title
@@ -211,7 +223,7 @@ br
 .main-right-formation-head h2
 {
     font-size: 1rem;
-    padding-left: 8px;
+    padding-left: 20px;
 }
 
 .main-right-formation-text
@@ -282,7 +294,7 @@ br
 .main-right-experience-head h2
 {
     font-size: 1rem;
-    padding-left: 8px;
+    padding-left: 20px;
 }
 
 .main-right-experience-text
@@ -353,7 +365,7 @@ br
 .main-right-recommendation-head h2
 {
     font-size: 1rem;
-    padding-left: 8px;
+    padding-left: 20px;
 }
 
 .main-right-recommendation-text
