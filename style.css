@@ -116,7 +116,7 @@ br
 .main-left-about-text
 {
     height: 30%;
-    font-size: small;
+    font-size: 0.75rem;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -153,7 +153,7 @@ br
 
 .main-left-hobby-img i 
 {
-    padding: 30%;
+    padding: 20%;
     border: 1px solid #212121;
     border-radius: 50%;
 }
@@ -269,7 +269,7 @@ br
 
 .main-right-formation-text-desc p
 {
-    font-size: small;
+    font-size: 0.75rem;
     margin: 2px;
     padding-right: 10px;
 }
@@ -340,7 +340,7 @@ br
 
 .main-right-experience-text-desc p
 {
-    font-size: small;
+    font-size: 0.75rem;
     margin: 2px;
     padding-right: 10px;
 }
@@ -391,7 +391,7 @@ br
 }
 
 /* -------------------------------------------------------------------------- */
-@media screen and (max-width: 630px)
+@media screen and (max-width: 750px)
 {
     html
     {
