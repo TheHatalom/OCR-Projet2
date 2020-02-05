@@ -18,7 +18,7 @@ ul
 
 ul li:nth-child(2n+2)
 {
-    margin-bottom: 12%;
+    margin-bottom: 8%;
 }
 
 br
@@ -54,9 +54,12 @@ br
 .main-left-img img
 {
     height: 70%;
-    width: 70%;
-    padding-top: 13%;
-    padding-left: 15%;
+    width: auto;
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10%;
 }
 
 .main-left-contact
@@ -84,10 +87,8 @@ br
 
 .main-left-contact-text
 {
-    height: 30%;
-    font-size: small;
+    font-size: 0.7rem;
     padding-left: 10%;
-    padding-top: 5%;
 }
 
 .main-left-about
@@ -116,7 +117,7 @@ br
 .main-left-about-text
 {
     height: 30%;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -148,7 +149,7 @@ br
 {
     display: flex;
     justify-content: space-around;
-    padding-top: 25px;
+    padding-top: 11px;
 }
 
 .main-left-hobby-img i
@@ -230,11 +231,13 @@ br
 {
     display: flex;
     flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .main-right-formation-text-title
 {
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -254,7 +257,7 @@ br
 
 .main-right-formation-text-desc
 {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -264,7 +267,7 @@ br
 {
     font-size: medium;
     margin: 0;
-    padding-top: 16px;
+    padding-top: 10px;
 }
 
 .main-right-formation-text-desc p
@@ -301,11 +304,13 @@ br
 {
     display: flex;
     flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .main-right-experience-text-title
 {
-    width: 40%;
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -325,7 +330,7 @@ br
 
 .main-right-experience-text-desc
 {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -335,19 +340,19 @@ br
 {
     font-size: medium;
     margin: 0;
-    padding-top: 16px;
+    padding-top: 10px;
 }
 
 .main-right-experience-text-desc p
 {
-    font-size: 0.75rem;
+    font-size: 0.73rem;
     margin: 2px;
     padding-right: 10px;
 }
 
 .main-right-recommendation
 {
-    height: auto;
+    height: 15%;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
